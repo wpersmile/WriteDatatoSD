@@ -10,7 +10,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.wper_smile.writedatatosd.MainActivity">
 
+    <EditText
+        android:id="@+id/edt_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="学号"/>
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_below="@id/edt_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="姓名"/>
    <Button
+       android:layout_below="@id/edt_name"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:text="写入"
